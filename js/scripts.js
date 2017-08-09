@@ -10,4 +10,15 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+  $("#formTwo").submit(function(event) {
+    var yellInput = $("input#yell").val();
+
+    $(".yell").text(yellInput);
+    .toUpperCase();
+
+    $("#shout").show();
+
+    event.preventDefault();
+
+  });
 });
