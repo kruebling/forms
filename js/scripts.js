@@ -13,8 +13,8 @@ $(document).ready(function() {
   $("#formTwo").submit(function(event) {
     var yellInput = $("input#yell").val();
 
-    $(".yell").text(yellInput);
-    .toUpperCase();
+    $(".yell").text(yellInput.toUpperCase());
+
 
     $("#shout").show();
 
